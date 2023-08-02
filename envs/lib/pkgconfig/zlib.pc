@@ -1,0 +1,13 @@
+prefix=/Users/christian/Desktop/nakul/envs
+exec_prefix=/Users/christian/Desktop/nakul/envs
+libdir=/Users/christian/Desktop/nakul/envs/lib
+sharedlibdir=/Users/christian/Desktop/nakul/envs/lib
+includedir=/Users/christian/Desktop/nakul/envs/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
